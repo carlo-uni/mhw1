@@ -1,0 +1,119 @@
+body{
+    margin: 0px;
+    height: 100vh;
+    width: 100vw;
+}
+
+header{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('background-spiagge-web.jpg');
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 50px;
+}
+
+h1{
+    color: black;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 500px; 
+}
+
+#blocco{
+    height: 200px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#log{
+    border-radius: 50%;
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    background-image: url('log.jpg');
+    background-position: center;
+    margin-top: -90px;
+}
+
+#nome{
+    text-align: center;
+}
+
+nav{
+    background-color: rgba(0, 0, 0, .3);
+    height: 75px;
+    display: flex;
+    position: fixed;
+    width: 100vw;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    border-radius: 35px;
+    padding: 5px;
+    background-color: black;
+    height: 25px;
+    width: 70px;
+    text-align: center;
+    color: white;
+}
+
+.menu:hover{
+    background-color: white;
+    color: black;
+}
+
+
+#foto{
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 66.67%;
+    margin-right: 0%;
+}
+
+.pic{
+    margin-bottom: 120px;
+}
+
+footer{
+    color: white;
+    height: 40px;
+    background-color: black;
+    text-align: center;
+}
+
+#flex{
+    display: flex;
+    flex-direction: row;   
+    justify-content: center;
+}
+ 
+img{
+    height: 100%;
+    width: 100%;
+} 
+
+#uno{
+    margin-top: 35px;   
+}
+
+
+#numeri{
+    margin-top: 0px; 
+}
+
+article{
+    margin-top: 60px;
+}
